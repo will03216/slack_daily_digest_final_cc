@@ -1,0 +1,24 @@
+# Credentials & runtime data — NEVER commit
+.slack-daily-digest/
+credentials.json
+*.token
+.lark_tenant_token
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*~
+
+# Build artifacts
+*.zip
+dist/
+build/
